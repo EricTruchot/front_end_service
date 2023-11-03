@@ -16,11 +16,15 @@ const Author = () => {
              <p>Author</p>
                  { el?.map(function(data) {
                  return (
-                     <p key={data?.id}>
-                         author:  { data?.name }
+                     <p key={data?.id_author}>
+                         author:  { data?.name_author }
                      </p>
                  )
             }) }
+            <div  className="link">
+                <a href="/">Utilisateurs</a>
+                <a href="/notes">Notes</a>
+            </div>
         </div>
     );
 };

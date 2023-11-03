@@ -20,6 +20,11 @@ const Accueil = () => {
                     </p>
                 )
             }) }
+            <div className="link">
+                <a href="/authors">Auteurs</a>
+                <a href="/notes">Notes</a>
+            </div>
+
         </div>
     );
 };

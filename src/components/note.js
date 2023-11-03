@@ -20,6 +20,10 @@ const Note = () => {
                     </p>
                 )
             }) }
+            <div className="link">
+                <a href="/authors">Auteurs</a>
+                <a href="/">Utilisateurs</a>
+            </div>
         </div>
     );
 };

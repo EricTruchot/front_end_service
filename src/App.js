@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Accueil />} />
         <Route path="/notes" element={<Note />} />
-        <Route path="/author" element={<Author />} />
+        <Route path="/authors" element={<Author />} />
 
       </Routes>
     </BrowserRouter>
